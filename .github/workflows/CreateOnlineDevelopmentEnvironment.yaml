@@ -26,9 +26,9 @@ on:
         default: false
 
 permissions:
-  contents: write
-  pull-requests: write
-  id-token: write
+  pull-requests: Write
+  id-token: Write
+  contents: Write
 
 defaults:
   run:

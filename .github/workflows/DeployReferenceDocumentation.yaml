@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  actions: read
-  pages: write
-  id-token: write
+  pages: Write
+  id-token: Write
+  contents: Read
+  actions: Read
 
 defaults:
   run:

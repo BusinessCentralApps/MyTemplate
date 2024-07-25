@@ -13,10 +13,10 @@ defaults:
     shell: powershell
 
 permissions:
-  contents: read
-  actions: read
-  pull-requests: read
-  id-token: write
+  pull-requests: Read
+  id-token: Write
+  contents: Read
+  actions: Read
 
 env:
   workflowDepth: 1

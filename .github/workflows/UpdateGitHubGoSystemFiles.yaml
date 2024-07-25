@@ -17,8 +17,8 @@ on:
         default: false
 
 permissions:
-  contents: read
-  id-token: write
+  id-token: Write
+  contents: Read
 
 defaults:
   run:
