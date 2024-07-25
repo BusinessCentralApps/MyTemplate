@@ -14,10 +14,10 @@ defaults:
     shell: powershell
 
 permissions:
-  contents: read
-  actions: read
-  pages: read
-  id-token: write
+  contents: Read
+  actions: Read
+  pages: Read
+  id-token: Write
 
 env:
   workflowDepth: 1

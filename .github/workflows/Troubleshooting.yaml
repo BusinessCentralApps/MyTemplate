@@ -9,8 +9,8 @@ on:
         default: false
 
 permissions:
-  contents: read
-  actions: read
+  contents: Read
+  actions: Read
 
 defaults:
   run:

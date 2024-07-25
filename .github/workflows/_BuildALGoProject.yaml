@@ -73,9 +73,9 @@ on:
         type: string
 
 permissions:
-  contents: read
-  actions: write
-  id-token: write
+  contents: Write
+  actions: Write
+  id-token: Write
   issues: read
 
 env:

@@ -12,9 +12,9 @@ on:
         required: true
 
 permissions:
-  contents: read
-  actions: read
-  id-token: write
+  contents: Read
+  actions: Read
+  id-token: Write
 
 defaults:
   run:
