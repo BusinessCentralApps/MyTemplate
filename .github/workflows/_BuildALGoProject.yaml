@@ -103,7 +103,7 @@ jobs:
           project: ${{ inputs.project }}
           get: useCompilerFolder,keyVaultCodesignCertificateName,doNotSignApps,doNotRunTests,artifact,generateDependencyArtifact
 
-      - name: CustomStep-Alpaca
+      - name: InitializeAlpaca
         run: |
           Write-Host "Set artifact and download scripts to .AL-Go folder"
 
