@@ -76,6 +76,7 @@ permissions:
   contents: read
   actions: read
   id-token: write
+  issues: read
 
 env:
   ALGoOrgSettings: ${{ vars.ALGoOrgSettings }}
