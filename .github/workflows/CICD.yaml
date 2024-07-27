@@ -25,8 +25,15 @@ env:
   ALGoRepoSettings: ${{ vars.ALGoRepoSettings }}
 
 jobs:
+  CustomJob-Init:
+    runs-on: [ windows-latest ]
+    steps:
+      - name: Init
+        run: |
+          Write-Host 'CustomJob-Init was here'
+
   Initialization:
-    needs: [ ]
+    needs: [ CustomJob-Init ]
     runs-on: [ windows-latest ]
     outputs:
       telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
